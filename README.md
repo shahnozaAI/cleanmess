@@ -1,5 +1,5 @@
-# cleanmess
-Clean your Mess: How to not move from MVP to Production. Presentation slides for Digital Innovation Summit 2022 in Stockholm.
+# Clean your Mess
+Clean your Mess: How to not move from MVP to Production. Presentation slides for [Data Innovation Summit 2022](https://datainnovationsummit.com/) in Stockholm.
 ## [Slides](https://shahnozaai.github.io/cleanmess/)
 
 ## Run Locally
@@ -7,13 +7,13 @@ Clean your Mess: How to not move from MVP to Production. Presentation slides for
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/shahnozaAI/cleanmess.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd cleanmess
 ```
 
 Start docker container
