@@ -1,4 +1,4 @@
-docker run --name slidevtest --rm -it \
+docker run --name slidev --rm -it \
     --user node \
     -v ${PWD}:/slidev \
     -p 3030:3030 \
