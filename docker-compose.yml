@@ -1,12 +1,11 @@
 version: '3.7'
 services:
+
   slidev:
-    image: slidev:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: tangramor/slidev:latest
     container_name: slidev
-    # volumes:
-    #   - ./slides:/root/slides
+    user: node
+    volumes:
+      - ${PWD}:/slidev
     ports:
       - 3030:3030
