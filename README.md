@@ -1,7 +1,6 @@
 # cleanmess
 Clean your Mess: How to not move from MVP to Production. Presentation slides for Digital Innovation Summit 2022 in Stockholm.
-
-[## Slides](https://shahnozaai.github.io/cleanmess/)
+## [Slides](https://shahnozaai.github.io/cleanmess/)
 
 ## Run Locally
 
