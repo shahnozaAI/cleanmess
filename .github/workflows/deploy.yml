@@ -17,4 +17,4 @@ jobs:
         with:
           build_dir: dist
         env:
-          CLEANMESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CLEANMESS_TOKEN: ${{ secrets.CLEANMESS_TOKEN }}

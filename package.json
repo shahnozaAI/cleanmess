@@ -3,5 +3,8 @@
     "@slidev/cli": "^0.30.3",
     "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "^0.21.2"
+  },
+  "scripts": {
+    "build": "npx slidev build"
   }
 }
