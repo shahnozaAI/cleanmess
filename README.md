@@ -1,5 +1,5 @@
 # Clean your Mess
-Clean your Mess: How to not move from MVP to Production. Presentation slides for [Data Innovation Summit 2022](https://datainnovationsummit.com/) in Stockholm.
+Clean your Mess: How not to move from MVP to Production. Presentation slides for [Data Innovation Summit 2022](https://datainnovationsummit.com/) in Stockholm.
 ## [Slides](https://shahnozaai.github.io/cleanmess/)
 
 ## Run Locally
