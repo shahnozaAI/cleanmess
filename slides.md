@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: /static/rabbit_in_mist.jpg
+background: ./static/rabbit_in_mist.jpg
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -26,12 +26,25 @@ Covid Joy. Intro.
 
 ---
 layout: image
-image: /static/bunny_graph.jpg
+image: ./static/bunny_graph.jpg
 ---
 
+# Beautiful MVP
 
+<style>
+h1 {
+  text-align: center;
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 <!--
-Covid Joy. Intro.
+Beautiful MVP.
 -->
 
 ---
