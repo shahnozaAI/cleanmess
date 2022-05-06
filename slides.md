@@ -14,6 +14,8 @@ info: |
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
+
+
 ---
 
 # Clean Your Mess
@@ -23,6 +25,25 @@ info: |
 <!--
 Covid Joy. Intro.
 -->
+
+---
+
+<style>
+
+ .c14 {
+  diplay: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
+}
+
+</style>
+
+- Shahnoza Bekbulaeva
+- Prayson W. Daniel
+
+<img border="rounded" src="https://i.ibb.co/1TfV5Df/Microsoft-Teams-image-3.jpg" class="c14">
 
 ---
 layout: image
@@ -155,7 +176,7 @@ class DataLoader(ABC):
 	def load_data(self, **kwargs) -> pd.DataFrame:
 		"""Interface to data loading ..."""
 
-class CSVReader(DataReader):
+class CSVReader(DataLoader):
 	
 	def __init__(self, path: Path, delimeter: Optional[str] = ",") -> Self:
 		...
@@ -163,7 +184,7 @@ class CSVReader(DataReader):
 	def load_data(self, **kwargs) -> pd.DataFrame:
 		...
 		
-class PDFReader(DataReader):
+class PDFReader(DataLoader):
 	...
 ```
 

@@ -6,5 +6,8 @@
   },
   "scripts": {
     "build": "npx slidev build --base=/cleanmess/"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.21.1"
   }
 }
