@@ -230,7 +230,7 @@ h2 {
 
 <div>
 
-## Prayson Wilfred
+## Prayson W. Daniel
 
 <img border="rounded" src="https://i.ibb.co/94cFzP9/Prayson.png" class="c6">
 </div>
